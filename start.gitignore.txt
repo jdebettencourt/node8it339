@@ -1,0 +1,10 @@
+Use this approach to set up a .gitignore after a commit that includes node_modules
+
+touch .gitignore
+git rm --cached nodeexp/node_modules/ -r
+git add -A
+git commit -m "dropped node_modules"
+git remote -v
+git push origin master
+ 
+then check to see if the node modules files are gone!
