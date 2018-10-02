@@ -1,0 +1,49 @@
+    1  node --version
+    2  nvm ls
+    3  npm --version
+    4  npm i -g npm
+    5  npm list
+    6  npm 
+    7  nhpm ls
+    8  npm ls
+    9  npm -g ls
+   10  npm outdated
+   11  npm -g outdated
+   12  npm -g update
+   13  npm outdated -g --depth=0
+   14  nvm --version
+   15  mkdir nodeexp
+   16  cd nodeexp
+   17  pwd
+   18  npm init
+   19  npm install express --save
+   20  npm ls
+   21  touch index.js
+   22  node index.js
+   23  git init
+   24  git add .
+   25  git remote add origin https://github.com/jdebettencourt/node8it339.git
+   26  git commit -m "first commit"
+   27  git push origin master
+   28  touch .gitignore
+   29  pwd
+   30  git rm --cached /nodeexp/node_modules/*.*
+   31  git rm --cached /nodeexp/node_modules/
+   32  git rm --cached nodeexp/node_modules/
+   33  git rm --cached nodeexp/node_modules/ -r
+   34  git add -A
+   35  git commit -m "dropped node_modules"
+   36  git remote -v
+   37  git push origin master
+   38  history
+   39  touch start.gitignore.txt
+   40  git add -A
+   41  git commit -m "dropped node_modules note"
+   42  git push origin master
+   43  git clone https://github.com/jdebettencourt/node8it339.git retest
+   44  cd retest 
+   45  cd nodeexp
+   46  node index.js
+   47  npm install
+   48  node index.js
+   49  history > oldhistory.txt
